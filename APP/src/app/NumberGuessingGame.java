@@ -83,7 +83,7 @@ public class NumberGuessingGame {
         resultLabel.setBounds(50, 210, 400, 30);
         gameFrame.add(resultLabel);
 
-        guessButton.addActionListener(new ActionListener() {
+        	guessButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
